@@ -1,0 +1,9 @@
+.git
+.gitignore
+node_modules
+**/node_modules
+backend/data
+frontend/dist
+*.log
+*.zip
+.DS_Store

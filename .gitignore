@@ -1,0 +1,26 @@
+# dependencies
+node_modules/
+
+# build output
+frontend/dist/
+
+# environment and secrets
+.env
+.env.*
+!.env.example
+
+# local database and backups (may contain real sales, staff and payroll data)
+backend/data/
+data/
+*.db
+*.db-shm
+*.db-wal
+*.sqlite
+*.sqlite3
+backups/
+
+# logs and OS files
+*.log
+npm-debug.log*
+.DS_Store
+Thumbs.db
